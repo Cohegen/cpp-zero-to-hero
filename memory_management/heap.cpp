@@ -15,7 +15,7 @@ int main()
     std::cout<<"localVariable: "<<localVariable << "\n";
     std::cout<< "*pLocal: " << *pLocal<< "\n";
     std::cout<< "*pHeap: " << *pHeap<< "\n";
-    delete pHeap;
+    delete pHeap; //deleting the pointed memory
 
     pHeap = new int;
     if (pHeap == NULL)
